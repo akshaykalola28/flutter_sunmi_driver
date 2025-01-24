@@ -6,7 +6,7 @@
  * See LICENSE for distribution and usage details.
  */
 
-library flutter_sunmi_printer;
+library;
 
 export './src/enums.dart';
 export './src/sunmi_col.dart';

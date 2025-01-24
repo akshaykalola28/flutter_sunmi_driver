@@ -5,10 +5,12 @@ import 'package:flutter/services.dart';
 import 'package:flutter_sunmi_printer/flutter_sunmi_printer.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatefulWidget {
+  const MyApp({super.key});
+
   @override
   _MyAppState createState() => _MyAppState();
 }
